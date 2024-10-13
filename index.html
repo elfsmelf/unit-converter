@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-content">
+        <div class="header">
+          <h1>Metric/Imperial Unit Conversion</h1>
+          <input type="text" id="number-input" placeholder="0" />
+          <button id="convert-button">Convert</button>
+        </div>
+        <div class="conversion-container">
+          <div class="conversion-box">
+            <h3>Length (Meter/Feet)</h3>
+            <p>
+              <span id="metric-number">0</span> meters =
+              <span id="feet-calc"></span>0 feet |
+              <span id="metric-number">0</span> feet =
+              <span id="meters-calc">0</span> meters
+            </p>
+          </div>
+          <div class="conversion-box">
+            <h3>Volume (Liters / Gallons)</h3>
+            <p>
+              <span id="metric-number">0</span> liters =
+              <span id="gallons-calc"></span>0 gallons |
+              <span id="metric-number">0</span> gallons =
+              <span id="liters-calc">0</span> liters
+            </p>
+          </div>
+          <div class="conversion-box">
+            <h3>Mass (Kilograms / Pounds)</h3>
+            <p>
+              <span id="metric-number">0</span> kilos =
+              <span id="pounds-calc"></span>0 pounds |
+              <span id="metric-number">0</span> pounds =
+              <span id="kilos-calc">0</span> kilos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

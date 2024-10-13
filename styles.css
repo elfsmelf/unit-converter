@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(32, 32, 32);
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+}
+
+.header {
+  background-color: #6943ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 28px;
+}
+
+.header input {
+  background: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-size: 58px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  width: 150px; /* Set a fixed width */
+  min-width: 150px; /* Match the fixed width */
+  transition: width 0.3s ease;
+}
+
+.header input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header button {
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conversion-container {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.conversion-box {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.conversion-box h3 {
+  color: #5a537b;
+}
+
+.conversion-box p {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400px;
+}
